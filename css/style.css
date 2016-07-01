@@ -1,0 +1,252 @@
+
+body {
+  position: absolute;
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  width: 1280px;
+  height: 1060px;
+  font-size: 14px;
+}
+
+.googlebar {
+  position: absolute;
+  margin: 0px;
+  width: 1280px;
+  height: 38px;
+}
+
+.container {
+  background-color: #ffffff;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 38px;
+  width: 1000px;
+  height: 990px;
+  box-shadow: 0px 4px 3px 3px rgba(0, 0, 0, .6); 
+}
+
+header {
+  position: relative; 
+  width: auto;
+  height: 175px;
+}
+
+.logo {
+  position: absolute;
+  height: 164px;
+  width: 283px;
+  margin: 10px 0 0 28px;
+}
+
+.photocontent{
+  position: absolute;
+  margin: 0px;
+  padding: 0px;
+  width: 1000px;
+  height: 237px;
+}
+
+.photo {
+  position: absolute;
+  margin: 0px;
+  padding: 0px;
+  width: 1000px;
+  height: 235px;
+  border: 0px;
+  border-top: 1px;
+  border-bottom: 1px;
+  border-style: solid;
+  border-color: #128aa7;
+}
+
+.text {
+  position: absolute; 
+  margin-top: 110px;
+  margin-left: 100px;
+  color: #128aa7;
+}
+
+.contacts {
+  position: absolute; 
+  margin: 0 auto;
+  list-style-type: none;
+  margin-top: 10px;
+  margin-left: 845px;
+  width: 128px;
+  height: 67px;
+  color: #128aa7;
+}
+
+.info {
+  position: absolute; 
+  padding: 0px;
+  margin: 0 auto;
+  list-style-type: none;
+  margin-left: 830px;
+  margin-top: 10px;
+  width: 155px;
+  height: 67px;
+  color: #128aa7;
+  font-size: 14px;
+}
+
+.countries {
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+  padding-left: 0;
+  margin-left: 642px;
+  margin-top: 112px;
+}
+
+.countries li {
+  position: relative;
+  display: inline-block;
+  list-style-type: none;
+  padding: 0px;
+  height: 58px; 
+  width: 51px; 
+  text-align: center;
+  font-size: 9px;
+  color: #128aa7;
+  text-decoration: underline; 
+}
+
+.countries li a {
+  text-decoration: none; /*убрал подчеркивание ссылок*/
+  color: #128aa7;
+}
+
+.nav {
+  position: absolute;
+  margin: 0;
+  width: 1000px; 
+  height: 30px;
+  background: linear-gradient(to top, #303030, #373737);
+  margin-top: 237px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, .5);
+  border-bottom:1px solid #000000;
+  border-top:1px solid #cacbcb;
+}
+
+.menu {
+  position: relative;
+  display: block;
+  margin: 0px;
+  margin-left: 20px;
+  padding: 0;
+  list-style: none;
+}
+
+.menu li:hover .submenu {
+  display: block;
+}
+
+.menu:after {
+  display: block;
+  content: ' ';
+  clear: both;
+  float: none;
+}
+
+.menu li {
+  float: left;
+  position: relative;
+  line-height: 30px; 
+  padding: 0px 0px 0px 47px; 
+}
+
+.menu li a {
+  display: block;
+  padding-left: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.submenu {
+  margin: 0px;
+  padding: 0px;
+  display: none;
+  position: absolute;
+  top: 30px;
+  border-top: 1px solid #000000;
+  box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, .5); 
+}
+
+.submenu li {
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  width: 150px;
+}
+
+.submenu li a {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  text-align: left;
+  text-decoration: none;
+  padding-left: 10px;
+  color: white;
+  background-color: #303030; 
+}
+
+.submenu li a:hover {
+  text-decoration: none;
+}
+
+.fon {
+margin-top: 267px;
+width: 1000px;
+height: 548px;
+overflow: hidden; /* чтобы лишее обрезалось */
+}
+
+.leftColumn {
+width: 208px;
+float: left;
+background: #edeef0;
+padding-bottom: 20000px;
+margin-bottom: -20000px;
+border-left: 1px solid #c7cacf;
+border-right: 1px solid #c7cacf;
+text-align: center;
+}
+
+.centerColumn {
+width: 576px;
+float: left;
+background: #ffffff;
+padding-bottom: 20000px;
+margin-bottom: -20000px;
+text-align: center;
+}
+
+.rightColumn {
+width: 210px;
+float: left;
+background: #edeef0;
+padding-bottom: 20000px;
+margin-bottom: -20000px;
+border-left: 1px solid #c7cacf;
+border-right: 1px solid #c7cacf;
+text-align: center;
+}
+
+footer {
+  position: relative;
+  display: table-cell;
+  margin: 0; 
+  width: 1280px;
+  height: 31px;
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+}
+
+p {
+  line-height: 1.6;
+  color: #000000;
+  text-align: center;
+}

@@ -1,25 +1,16 @@
 
 body {
-  position: absolute;
   background-image: url("../img/background.jpg");
   background-repeat: no-repeat;
-  width: 1280px;
-  height: 1060px;
+  background-size: cover;
+  /*background-attachment: fixed;*/
   font-size: 14px;
-}
-
-.googlebar {
-  position: absolute;
-  margin: 0px;
-  width: 1280px;
-  height: 38px;
 }
 
 .container {
   background-color: #ffffff;
   position: relative;
   margin: 0 auto;
-  margin-top: 38px;
   width: 1000px;
   height: 990px;
   box-shadow: 0px 4px 3px 3px rgba(0, 0, 0, .6); 
@@ -28,7 +19,20 @@ body {
 header {
   position: relative; 
   width: auto;
-  height: 175px;
+  height: 176px;
+}
+
+.trip {
+  position: absolute;
+  margin: 0px;
+  margin-top: 110px;
+  margin-left: 100px;
+  z-index: 1;
+}
+
+h1 {
+ color: #128aa7;
+ font-size: 14px;
 }
 
 .logo {
@@ -57,13 +61,6 @@ header {
   border-bottom: 1px;
   border-style: solid;
   border-color: #128aa7;
-}
-
-.text {
-  position: absolute; 
-  margin-top: 110px;
-  margin-left: 100px;
-  color: #128aa7;
 }
 
 .contacts {
@@ -196,53 +193,51 @@ header {
   text-decoration: none;
 }
 
-.fon {
-margin-top: 267px;
-width: 1000px;
-height: 548px;
-overflow: hidden; /* чтобы лишее обрезалось */
+.content {
+  margin-top: 267px;
+  width: 1000px;
+  height: 548px;
+  overflow: hidden; 
 }
 
-.leftColumn {
-width: 208px;
-float: left;
-background: #edeef0;
-padding-bottom: 20000px;
-margin-bottom: -20000px;
-border-left: 1px solid #c7cacf;
-border-right: 1px solid #c7cacf;
-text-align: center;
+.leftcolumn {
+  width: 208px;
+  float: left;
+  background: #edeef0;
+  padding-bottom: 20000px;
+  margin-bottom: -20000px;
+  border-left: 1px solid #c7cacf;
+  border-right: 1px solid #c7cacf;
+  text-align: center;
 }
 
-.centerColumn {
-width: 576px;
-float: left;
-background: #ffffff;
-padding-bottom: 20000px;
-margin-bottom: -20000px;
-text-align: center;
+.centercolumn {
+  width: 580px;
+  float: left;
+  background: #ffffff;
+  padding-bottom: 20000px;
+  margin-bottom: -20000px;
+  text-align: center;
 }
 
-.rightColumn {
-width: 210px;
-float: left;
-background: #edeef0;
-padding-bottom: 20000px;
-margin-bottom: -20000px;
-border-left: 1px solid #c7cacf;
-border-right: 1px solid #c7cacf;
-text-align: center;
+.rightcolumn {
+  width: 208px;
+  float: left;
+  background: #edeef0;
+  padding-bottom: 20000px;
+  margin-bottom: -20000px;
+  border-left: 1px solid #c7cacf;
+  border-right: 1px solid #c7cacf;
+  text-align: center;
 }
 
 footer {
-  position: relative;
-  display: table-cell;
-  margin: 0; 
-  width: 1280px;
-  height: 31px;
+  margin: 0;
+  color: white;
+  font-size: 12px;
   text-align: center;
-  color: #ffffff;
-  vertical-align: middle;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 p {
